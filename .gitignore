@@ -1,0 +1,23 @@
+# Root gitignore to protect secrets and ignore large folders across both backend and frontend
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# Next.js build output
+.next/
+out/
+build/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
